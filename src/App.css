@@ -1,38 +1,58 @@
-.App {
-  text-align: center;
+.header{
+  padding: 5px;
+  background-color: yellow;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main_note{
+   height: 130px;
+   width: 200px;
+    border: 2px;
+    border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px 8px 10px #888888;
+   margin-left: 750px;
+}
+.forming{
+  padding: 10px;
+  gap: 2px;
+}
+.Note{
+  margin-left: 10px;
+  width: 150px;
+  height:150px;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px 8px 10px #888888;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.note {
+  margin-left: 10px;
+  width: 150px;
+  height:150px;
+  border: 2px solid black;
+  padding: 10px;
+  box-shadow: 5px 5px 5px 5px #888888;
+  
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+/* App.css */
+.note-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5px;
+  margin-left: 100px;
+  margin-top: 10px; 
+  border: 2px solid blue;
+  margin-right: 80px;
+  background-color: bisque;/* Adjust the gap between cards as needed */
+}
+
+.note-container {
+  /* Add styles for the individual note container as needed */
+}
+
+.pagination{
+  margin-left: 600px;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  margin-top: 20px;
 }
